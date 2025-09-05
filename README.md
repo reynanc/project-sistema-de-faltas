@@ -1,6 +1,6 @@
 ## 👥 Divisão de Tarefas
 
-### 👤 Reynan — Dados & Cadastro 
+### 👤 Reynan  
 Responsabilidades **IMPLEMENTADAS**:
 - ✅ Criou classe `Aluno` com atributos (nome, total_aulas, faltas)
 - ✅ Implementou método `calcular_percentual_presenca()`
@@ -19,7 +19,7 @@ Responsabilidades **IMPLEMENTADAS**:
 
 ---
 
-### 👤 Arthur — Frequência & Busca
+### 👤 Arthur 
 Responsabilidades **PENDENTES**:
 - ⏳ Função `registrar_falta(nome_aluno, qtd=1)` para buscar aluno e adicionar faltas
 - ⏳ Função `buscar_aluno_por_nome(nome)` para localizar aluno específico
@@ -35,7 +35,7 @@ Responsabilidades **PENDENTES**:
 
 ---
 
-### 👤 Luana — Interface & Relatórios
+### 👤 Luana
 Responsabilidades **PENDENTES**:
 - ⏳ Menu principal interativo com opções:
   - Cadastrar novo aluno
