@@ -63,8 +63,34 @@ for aluno in alunos:
 # Arthur
 # ===========================
 
+def buscar_aluno_por_nome(nome: str):
+    nome_clean = nome.strip().lower()
+    for aluno in alunos:
+        if aluno.nome.lower() == nome_clean:
+            return aluno
+    return None
 
+def registrar_falta(nome_aluno: str, qtd: int = 1) -> bool:
+    if not nome_aluno.strip():
+        print("Erro: nome do aluno não pode ser vazio.")
+        return False
+    if qtd < 1:
+        print("Erro: quantidade de faltas deve ser pelo menos 1.")
+        return False
 
+    aluno = buscar_aluno_por_nome(nome_aluno)
+    if not aluno:
+        print(f"Erro: aluno '{nome_aluno}' não encontrado.")
+        return False
+
+    aluno.adicionar_falta(qtd)
+    print(f"Registradas {qtd} falta(s) para {aluno.nome}.")
+    return True
+
+def listar_alunos_por_status() -> dict:
+    aprovados = [a for a in alunos if a.verificar_status() == "APROVADO"]
+    reprovados = [a for a in alunos if a.verificar_status() != "APROVADO"]
+    return {"APROVADO": aprovados, "REPROVADO POR FALTA": reprovados}
 
 # ===========================
 # - Luana
