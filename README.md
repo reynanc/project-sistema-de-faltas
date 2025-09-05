@@ -20,6 +20,7 @@ Responsabilidades **IMPLEMENTADAS**:
 
 ### 👤 Arthur 
 Responsabilidades **PENDENTES**:
+- ⏳ Função `cadastrar_aluno()` para cadastrar e verificar aluno
 - ⏳ Função `registrar_falta(nome_aluno, qtd=1)` para buscar aluno e adicionar faltas
 - ⏳ Função `buscar_aluno_por_nome(nome)` para localizar aluno específico
 - ⏳ Função `listar_alunos_por_status()` para filtrar aprovados/reprovados
