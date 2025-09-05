@@ -1,6 +1,6 @@
 ## 👥 Divisão de Tarefas
 
-### 👤 Pessoa 1 — Dados & Cadastro 
+### 👤 Reynan — Dados & Cadastro 
 Responsabilidades:
 - Criar classe `Aluno` (nome, total de aulas, faltas = 0)
 - Implementar repositório para gerenciar alunos:
@@ -11,7 +11,7 @@ Responsabilidades:
 
 ---
 
-### 👤 Pessoa 2 — Frequência & Busca
+### 👤 Arthur — Frequência & Busca
 Responsabilidades:
 - Função `registrar_falta(nome_aluno, qtd=1)`
 - Calcular `percentual_presenca(aluno)`
@@ -21,7 +21,7 @@ Responsabilidades:
 
 ---
 
-### 👤 Pessoa 3 — Interface & Relatórios
+### 👤 Luana — Interface & Relatórios
 Responsabilidades:
 - Criar menus de texto:
   - Cadastrar aluno
