@@ -8,7 +8,6 @@ Responsabilidades **IMPLEMENTADAS**:
 - ✅ Implementou método `adicionar_falta(quantidade)` com validação
 - ✅ Implementou método `__str__()` para formatação de saída
 - ✅ Criou lista global `alunos` para armazenamento
-- ✅ Implementou código de teste com 5 alunos de exemplo
 
 **Funcionalidades da Classe Aluno:**
 - Construtor com parâmetros nome, total_aulas e faltas (padrão 0)
