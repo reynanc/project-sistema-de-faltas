@@ -37,27 +37,9 @@ class Aluno:
         return f"{self.nome} - Faltas: {self.faltas}/{self.total_aulas} - Presença: {self.calcular_percentual_presenca():.1f} % - {self.verificar_status()}"
 
 
-"""
-É APENAS TESTE PARA VER SE ESTÁ FUNCIONANDO CORRETAMENTE:
-"""
-# Lista para armazenar todos os alunos
-alunos = [
-    Aluno("Reynan", 20),
-    Aluno("Arthur", 20),
-    Aluno("Luana", 20),
-    Aluno("José", 20),
-    Aluno("Felipe", 20),
-]
-for aluno in alunos:
-    print(aluno)
-    aluno.adicionar_falta(6)
-    print(aluno)
-    print("="*50)
-    print()
 
-"""
-=======================================================
-"""  
+# Lista para armazenar todos os alunos
+alunos = []
 
 # ===========================
 # Arthur
